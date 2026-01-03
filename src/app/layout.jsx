@@ -41,6 +41,7 @@ export default function RootLayout({ children }) {
           <div className="space-x-5">
             <Link prefetch={false} className="btn text-white" href='/foods'>Food</Link>
             <Link className="btn text-white" href='/reviews'>Reviews</Link>
+            <Link className="btn text-white" href='/feedbacks'>Feedback</Link>
           </div>
         </header>
         <main className="px-5 py-8">
